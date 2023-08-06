@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FootballTeamSpin.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Blue" Padding="24" CornerRadius="0">
+            <Label Text="Spin Teams" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Image x:Name="ImageBox" HeightRequest="300" Background="White" Source="https://ahaslides.com/wp-content/uploads/2021/06/Spin-the-wheel.png" Margin="0,100"/>
+        <Button Text="SPIN" Clicked="Button_Clicked" Margin="50,0" FontSize="30" CornerRadius="20" BackgroundColor="Red" Background="Blue"/>
+    </StackLayout>
+
+</ContentPage>
